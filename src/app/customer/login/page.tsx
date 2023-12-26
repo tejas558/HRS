@@ -1,7 +1,11 @@
 export default function Home() {
   return (
     <div className="">
-      Please Login to your Account Here!
+      <div className="center">
+        Please Login to your account here
+      </div>
+        <div className="center"><input type="text" placeholder="username"/></div>
+        <div className="center"><input type="password" placeholder="password" /></div>
     </div>
   )
 }

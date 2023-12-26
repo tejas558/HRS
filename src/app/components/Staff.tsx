@@ -1,6 +1,11 @@
 "use client";
 
+import { useRouter } from "next/navigation";
+
 export default function Staff() {
+    
+    const router = useRouter();
+
     return (
         <div className="">
             <center>
@@ -9,7 +14,7 @@ export default function Staff() {
             </div>
             </center>
             <center>
-            <button>
+            <button onClick={() => router.push('/staff/login')}>
                 Click here to Login!
             </button>
             </center>
